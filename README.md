@@ -7,7 +7,7 @@ Skills:
 Email Skill
 
 
-A fullu functional assistant that has the capability to send emails using the email skill.
+A fully functional virtual assistant that has the capability to send emails using the email skill.
 
 
 ![1](https://user-images.githubusercontent.com/28699887/62988698-d70f4a80-be77-11e9-83b9-37954e402060.PNG)
