@@ -1,11 +1,16 @@
 # DaneBot
 <h3>Created by: Danielle Espiritu</h3>
 
-Robotic Process Automation (UiPath Studio 2019)
+A chat bot created using Microsoft's bot framework SDK V4 using the virtual assistant template.
+
+Skills:
+
+
+Email Skill
 
 
 
-Automatically gathers the latest South East Asia currency exchange rates and sends it to the recipient's email together with an excel copy of the report.
+A fullu functional assistant that has the capability to send emails using the email skill.
 
 
 
