@@ -1,0 +1,44 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en": {
+      "languageModels": [
+        {
+          "subscriptionkey": "e064ae0a974343eca3ee691fa995dd93",
+          "authoringkey": "e064ae0a974343eca3ee691fa995dd93",
+          "id": "general",
+          "region": "westus",
+          "name": "DaneVirtualAssistanten_general",
+          "appid": "90d6380e-5145-4a14-96f7-89e889719e0d",
+          "version": "0.1"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "subscriptionKey": "2916d504646a44a5b8a62b320f40d172",
+          "endpointKey": "2414cadd-e920-43f6-89bc-296e9c44b977",
+          "id": "chitchat",
+          "kbId": "4f9c7f9d-637b-4898-afe2-7fed705b534d",
+          "name": "chitchat",
+          "hostname": "https://danevirtualassistant-qnahost.azurewebsites.net"
+        },
+        {
+          "subscriptionKey": "2916d504646a44a5b8a62b320f40d172",
+          "endpointKey": "2414cadd-e920-43f6-89bc-296e9c44b977",
+          "id": "faq",
+          "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+          "name": "faq",
+          "hostname": "https://danevirtualassistant-qnahost.azurewebsites.net"
+        }
+      ],
+      "dispatchModel": {
+        "authoringkey": "e064ae0a974343eca3ee691fa995dd93",
+        "appid": "a3fa5a85-607f-4a5b-80bd-b0b34aee6fa9",
+        "name": "DaneVirtualAssistanten_Dispatch",
+        "subscriptionkey": "e064ae0a974343eca3ee691fa995dd93",
+        "type": "dispatch",
+        "region": "westus"
+      }
+    }
+  }
+}

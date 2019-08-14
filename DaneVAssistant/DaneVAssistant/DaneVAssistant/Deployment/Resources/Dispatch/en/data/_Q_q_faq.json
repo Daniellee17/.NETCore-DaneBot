@@ -1,0 +1,869 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "We have seen significant need from our customers and partners to deliver a conversational assistant tailored to their brand, personalized to their customers and made available across a broad range of conversational canvases and devices. Continuing Microsoft open-sourced approach toward Bot Framework SDK, the open source Virtual Assistant solution provides full control over the end user experience built on a set of foundational capabilities. Additionally, the experience can be infused with intelligence about the end-user and any device/ecosystem information for a truly integrated and intelligent experience.\nFind out more [here](https://github.com/Microsoft/AI/blob/master/solutions/Virtual-Assistant/docs/README.md).",
+      "source": "custom editorial",
+      "questions": [
+        "What is a Virtual Assistant"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 2,
+      "answer": "A broad set of common capabilities exist which today, which require each developer to build themselves. Our Virtual Assistant solution includes a new Skill capability enabling new capabilities to be plugged into an Virtual Assistant through configuration only and provide an authentication mechanism for Skills to request tokens for down-stream activities.\nFind out more [here](https://github.com/Microsoft/AI/blob/master/solutions/Virtual-Assistant/docs/virtualassistant-skills.md).",
+      "source": "custom editorial",
+      "questions": [
+        "What is a Skill"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 3,
+      "answer": "## Overview\nThe Calendar Skill provides Calendar related capabilities to a Virtual Assistant. The most common scenarios have been implemented in this first release with additional scenarios in development.\n## Supported Scenarios\nThe following scenarios are currently supported by the Skill:\n- Show meeting summary - e.g **What's in my calendar**\n- Next Meeting - e.g. **what's my next meeting**\n- Create a meeting - e.g. Book a meeting\n- Update a meeting - e.g. Update meeting\n- Delete a meeting - e.g. Delete a meeting",
+      "source": "custom editorial",
+      "questions": [
+        "What can the Calendar Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 4,
+      "answer": "# Overview\nThe Email Skill provides Email related capabilities to a Virtual Assistant. The most common scenarios have been implemented in this first release with additional scenarios in development.\n## Supported Scenarios\nThe following scenarios are currently supported by the Skill:\n- Send an Email\n- Send an email to John Smith\n- Send an email\n- Find Email\n- Find email from John Smith\n- What email do I have",
+      "source": "custom editorial",
+      "questions": [
+        "What can the Email Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 5,
+      "answer": "## Overview\nThe Point of Interest Skill provides PoI related capabilities to a Virtual Assistant. The most common scenarios have been implemented in this first release with additional scenarios in development.\n## Supported Scenarios\nThe following scenarios are currently supported by the Skill:\n- NAVIGATION_ROUTE_FROM_X_TO_Y\n- What's the fastest way to get to 221B Baker Street?\n- How do I get to the grocery store?\n- I need directions to a cafe\n- NAVIGATION_FIND_POINTOFINTEREST\n- What's nearby?\n- Are there any pharmacies in town?\n- Can you recommend an affordable restaurant in Seattle?\n- NAVIGATION_CANCEL_ROUTE\n- I don't want to go to the shop anymore\n- Would you cancel my route?\n- On second thought, forget going to the airport",
+      "source": "custom editorial",
+      "questions": [
+        "What can the Point of Interest Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 6,
+      "answer": "## Overview\nThe Task Skill provides Task related capabilities to a Virtual Assistant. The most common scenarios have been implemented in this first release with additional scenarios in development.\n## Supported Scenarios\nThe following scenarios are currently supported by the Skill:\n- Add a Task\n- Remind me to pickup milk\n- Add task\n- Find Tasks\n- What tasks do I have",
+      "source": "custom editorial",
+      "questions": [
+        "What can the ToDo Skill do"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 7,
+      "answer": "The Virtual Assistant recently released new localisation for the Virtual Assistant and Skills enabling usage in English, French, Italian, German, Spanish and Chinese Simplified.",
+      "source": "custom editorial",
+      "questions": [
+        "What's New"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 8,
+      "answer": "Raise an issue on the [GitHub repo](https://github.com/Microsoft/AI/blob/master/solutions/Virtual-Assistant/docs/README.md)",
+      "source": "custom editorial",
+      "questions": [
+        "How do I raise a bug"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 9,
+      "answer": "{'text':'The tire inflation pressure table, refer to page 219, contains all tire inflation pressure specifications for the specified tire sizes at the ambient temperature. The tire inflation pressure values apply to tire sizes approved by the manufacturer of the vehicle for the vehicle type. To identify the correct tire inflation pressure, please note the following:\n- Tire sizes of your vehicle.\n- Maximum permitted driving speed.'}",
+      "source": "custom editorial",
+      "questions": [
+        "Recommended tire pressure"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 10,
+      "answer": "{'text':'\n1. Unlock the vehicle with the remote control or switch on the ignition.\n2. If you are carrying the remote control on your person, grasp the door handle on the driver or front passenger door completely'}",
+      "source": "custom editorial",
+      "questions": [
+        "How do I turn off the alarm"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 11,
+      "answer": "{'text':'In the vicinity of the steering wheel...'}",
+      "source": "custom editorial",
+      "questions": [
+        "Where is the button to heat the steering wheel"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 12,
+      "answer": "{'text':'E.g., in the event of an electrical malfunction. Have fuel filler flap unlocked by a dealer\\'s service center or another qualified service center or repair shop.'}",
+      "source": "custom editorial",
+      "questions": [
+        "Where is the emergency release for the fuel tank"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 13,
+      "answer": "{'text':'Grasp the door handle on the driver\\'s or front passenger door completely. This corresponds with pressing the button on the remote control.'}",
+      "source": "custom editorial",
+      "questions": [
+        "How do I unlock the door without hitting the unlock button"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 14,
+      "answer": "{'text':'The curvature of the seat backrest can be adjusted in a way that it supports the lumbar region of the spine. The lower back and the spine are supported for upright posture.\n- Press the front/rear section of the button: The curvature is increased/ decreased.\n-  Press the upper/lower section of the button: The curvature is shifted up/ down.'}",
+      "source": "custom editorial",
+      "questions": [
+        "How do I use my lumbar support",
+        "is there low back support",
+        "does my car have lumbar support"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 15,
+      "answer": "{'text':'The air quality inside the vehicle is improved by an emissions-tested interior, a microfilter, and a climate-control system for regulating temperature, air flow, and recirculated-air mode. In addition there are other functions which depend on the vehicle\\'s equipment, for instance microfilter/activated-charcoal filter, automatic climate control with automatic recirculated-air control AUC, and parked-car ventilation'}",
+      "source": "custom editorial",
+      "questions": [
+        "How does the climate system work"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 16,
+      "answer": "{'text':'You can wirelessly charge your phone by inserting it into the wireless charging tray.'}",
+      "source": "custom editorial",
+      "questions": [
+        "How do I charge my Phone"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 17,
+      "answer": "{'text':'Automatic unlocking:\n1. My Vehicle\n2. Vehicle settings\n3. Doors/Key\n4. Unlock at end of trip\n\nAfter the engine is switched off by pressing the Start/Stop button, the locked vehicle is automatically unlocked.'}",
+      "source": "custom editorial",
+      "questions": [
+        "How can I set all my doors to unlock"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 18,
+      "answer": "{'text':'Locking the safety belt\n1. Pull out the belt strap completely.\n2. Secure the child restraint system with the safety belt.\n3. Allow the belt strap to be pulled in and pull it tight against the child restraint system.\n\nThe safety belt is locked'}",
+      "source": "custom editorial",
+      "questions": [
+        "how do you use a seat belt to secure a car seat"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 19,
+      "answer": "{'title':'Tire pressure monitor (yellow)','subtitle':'If this indicator lamp comes on in yellow, the tire pressure is off about 10% or more.','text':'','images':[{'url':'https://virtualasspc5f.blob.core.windows.net/images/TirePressureYellow.png'}]}",
+      "source": "custom editorial",
+      "questions": [
+        "What is that yellow tire light on my dash",
+        "What is that yellow light"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 20,
+      "answer": "{'title':'Tire pressure monitor (red)','subtitle':'If this warning lights up in red, it means your tire or tires have rapidly deflated.','text':'','images':[{'url':'https://virtualasspc5f.blob.core.windows.net/images/TirePressureRed.png'}]}",
+      "source": "custom editorial",
+      "questions": [
+        "What is that red tire light on my dash"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 21,
+      "answer": "{'title':'Break fluid monitor (red)','subtitle':'If this signal lights up in red, your brake fluid level is too low.','text':'','images':[{'url':'https://virtualasspc5f.blob.core.windows.net/images/BreakFluidRed.png''}]}",
+      "source": "custom editorial",
+      "questions": [
+        "What is that red circle light on my dash"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 22,
+      "answer": "{'text':'In-car productivity helps you do more while driving, try asking me things like **When is my next appointment?, What can I do in the car while driving?, What is in my to-do list?, Remind me to call mom** or **Capture a memo.**'}",
+      "source": "custom editorial",
+      "questions": [
+        "In car productivity"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 23,
+      "answer": "{'text':'I can help you making dinner or lunch reservations, just say, **Make a Reservation** and I will guide you through the rest.'}",
+      "source": "custom editorial",
+      "questions": [
+        "Make a reservation"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 24,
+      "answer": "{'text':'Have you thought about winterizing your car?\nWinterization is a practice originated in Nashville, Tennessee but not very well known in other parts of the world.\nIt involves replacing your vehicle fluids with Jack Daniels.\nYour vehicle will still freeze, but you can have a drink while you wait for help.\n\n... don\\'t look at me like that, it is all true!'}",
+      "source": "custom editorial",
+      "questions": [
+        "Winter is coming"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 25,
+      "answer": "Try asking me things like:\n**What is that red light on the dash?** or\n**How do I charge my phone?**",
+      "source": "custom editorial",
+      "questions": [
+        "Car Info"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 26,
+      "answer": "You should change your oil every 10,000 miles or every 6 months.",
+      "source": "custom editorial",
+      "questions": [
+        "When should I change my oil"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 27,
+      "answer": "I can help you making dinner or lunch reservations, just say, **Make a Reservation** and I will guide you through the rest.",
+      "source": "custom editorial",
+      "questions": [
+        "Make a reservation"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 28,
+      "answer": "In this version I can work in both English and Chinese! The team is hard at work on more productivity features as well.",
+      "source": "custom editorial",
+      "questions": [
+        "What's new",
+        "What's up",
+        "Yo brother"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 29,
+      "answer": "Sorry, I don't currently have information on how to setup a Bluetooth Phone. Please keep checking as I am getting smarter all the time.",
+      "source": "custom editorial",
+      "questions": [
+        "How do I pair my Bluetooth phone",
+        "Where can I pair my Bluetooth Phone"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 30,
+      "answer": "Memory seats allow two drivers to store and recall their unique seat positions for driving the vehicle.",
+      "source": "custom editorial",
+      "questions": [
+        "What are memory seats"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 31,
+      "answer": "Sorry, I don't currently know information on your vehicle's safety features, but keep checking back as I am getting smarter all the time.",
+      "source": "custom editorial",
+      "questions": [
+        "What are some safety features",
+        "Can you tell me about safety features",
+        "Can you tell me about my car's safety features",
+        "What are my vehicles safety features"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 32,
+      "answer": "Cruise control helps you maintain a consistent speed.",
+      "source": "custom editorial",
+      "questions": [
+        "What is cruise control"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 33,
+      "answer": "How to use cruise control.\nStep 1. Press the cruise control ON/OFF button.\nStep 2. Set your cruising speed to your current speed by pressing the SET button.\nStep 3. Select how closely you want to follow a vehicle in front of you, by pressing the GAP button.",
+      "source": "custom editorial",
+      "questions": [
+        "How do I use Cruise Control",
+        "How do I work Cruise Control",
+        "How do I operate Cruse Control",
+        "How do I turn on Cruise Control"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 34,
+      "answer": "Don't worry, your vehicle has a spare tire available in the back under the rear flooring.",
+      "source": "custom editorial",
+      "questions": [
+        "Do I have a spare tire",
+        "I have a flat tire.",
+        "My tire is flat."
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 35,
+      "answer": "The spare tire can be found in the back under the rear floor. Just lift up the flooring and it will be under the plastic panel in the rear.",
+      "source": "custom editorial",
+      "questions": [
+        "Where is the spare tire",
+        "How do I find the spare tire"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 36,
+      "answer": "Regular Unleaded is fine, but I enjoy the flavors of Ethanol and Premium Unleaded as well. Diesel is not my favorite however there are versions of me that prefer it.",
+      "source": "custom editorial",
+      "questions": [
+        "What is my fuel type",
+        "What kind of gas does my car use",
+        "Is my car a diesel",
+        "Should I use premium gas",
+        "What fuel do you recommend"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 37,
+      "answer": "14.9 Gallons or 56.4 Liters",
+      "source": "custom editorial",
+      "questions": [
+        "What is my fuel capacity",
+        "How much gas does my car hold"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 38,
+      "answer": "You will need to pull up to the gas station with the pump on the left of the vehicle. The fuel filler is on the left back side of the vehicle.",
+      "source": "custom editorial",
+      "questions": [
+        "Where is my fuel filler location",
+        "Where do I put gas in on the car",
+        "Where is the gas cap",
+        "what side of the car is the gas cap",
+        "Do you put gas in on the right or the left"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 39,
+      "answer": "Your current tire pressure is 34 pounds",
+      "source": "custom editorial",
+      "questions": [
+        "What is my tire pressure",
+        "What is my tire level"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 40,
+      "answer": "Your current fuel level is 35 percent",
+      "source": "custom editorial",
+      "questions": [
+        "What is my fuel level",
+        "How much gas do I have"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 41,
+      "answer": "I have set your defrost to maximum",
+      "source": "custom editorial",
+      "questions": [
+        "Set defrost to max.",
+        "Max defrost",
+        "maximum defrost",
+        "set defrost to maximum"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 42,
+      "answer": "## Leadership Escalation Contacts ## \n\n **Manager**\n\nKevin Bishop - CTN 842-1407 - San Ramon \n\n**Projects & Consulting**\n\nDavid Copeland - CTN 842-2536 - San Ramon \n\nRodrigo Reynoso - CTN 338-2529 - Buenos Aires \n\nDerek Carlson - CTN 754-4173 - Houston \n\nMarc Dijamco - CTN 793-1206 - Manila \n\n**DMSS Operations** \n\nQuynh Nguyen - CTN 754-5764 - Houston",
+      "source": "Editorial",
+      "questions": [
+        "Escalation Team",
+        "Leadership Team",
+        "LT",
+        "Leadership Team Leads\n\n",
+        "Who are the DMSS team members?",
+        "dmss team",
+        "dmss",
+        "DMSS"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 43,
+      "answer": "https://go.chevron.com/dmirequest",
+      "source": "Editorial",
+      "questions": [
+        "What is your website?",
+        "Website",
+        "website",
+        "website?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 44,
+      "answer": "## DMSS Self Service\n\n**Self Service Web Portal and API’s (SQL)**\n[https://dmselfservice.chevron.com/](https://dmselfservice.chevron.com/)\n\n**Database Refresh (SQL)**\nhttps://dmselfservice.chevron.com/selfservice/databaserefresh\n\n**Database Backup (SQL)**\nhttps://dmselfservice.chevron.com/selfservice/databasebackup\n\n**Security Request (SQL)**\n[https://dmselfservice.chevron.com/selfservice/managesecurity](https://dmselfservice.chevron.com/selfservice/managesecurity)\n\n**Oracle Password Rescue Tool**\n[http://gmwcpiisv00228.hou150.chevrontexaco.net:1857/SS_pwd_reset.aspx](http://gmwcpiisv00228.hou150.chevrontexaco.net:1857/SS_pwd_reset.aspx)\n\n**Oracle Password Reset Tool**\n[https://passwordresettool.chevron.com/PRT_Home.aspx?](https://passwordresettool.chevron.com/PRT_Home.aspx?)\n",
+      "source": "Editorial",
+      "questions": [
+        "Self service offered",
+        "self service"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 45,
+      "answer": "According to sqlcourse.com,\n SQL (pronounced \"ess-que-el\") stands for Structured Query Language. SQL is used to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems.",
+      "source": "Editorial",
+      "questions": [
+        "sql",
+        "what is sql"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 46,
+      "answer": "According to sqlservertutorial.net,\nSQL Server is a relational database management system, or RDBMS, developed and marketed by Microsoft.\n\nSimilar to other RDBMS software, SQL Server is built on top of SQL, a standard programming language for interacting with the relational databases. SQL server is tied to Transact-SQL, or T-SQL, the Microsoft’s implementation of SQL that adds a set of proprietary programming constructs.",
+      "source": "Editorial",
+      "questions": [
+        "sql server",
+        "what is sql server",
+        " what is an sql server"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 47,
+      "answer": "According to https://docs.microsoft.com, PowerApps is a suite of apps, services, connectors and data platform that provides a rapid application development environment to build custom apps for your business needs. Using PowerApps, you can quickly build custom business apps that connect to your business data stored either in the underlying data platform (Common Data Service) or in various online and on-premises data sources (SharePoint, Excel, Office 365, Dynamics 365, SQL Server, and so on).",
+      "source": "Editorial",
+      "questions": [
+        "power apps",
+        "powerapps",
+        "powerapp",
+        "what is powerapps"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 48,
+      "answer": "According to https://docs.microsoft.com, Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Your data may be an Excel spreadsheet, or a collection of cloud-based and on-premises hybrid data warehouses. Power BI lets you easily connect to your data sources, visualize and discover what’s important, and share that with anyone or everyone you want.",
+      "source": "Editorial",
+      "questions": [
+        "powerbi",
+        "power bi",
+        "what is powerbi",
+        "what is power bi"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    }
+  ]
+}

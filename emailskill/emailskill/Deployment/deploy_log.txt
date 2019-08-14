@@ -1,0 +1,423 @@
+{
+  "error": null,
+  "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Resources/deployments/deployment_dry_run",
+  "name": "deployment_dry_run",
+  "properties": {
+    "correlationId": "e8fb104b-9f98-491e-b622-786f7bfe4b25",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Web/serverfarms/AAA-3nvq67c",
+            "resourceGroup": "azurechatbot-s010-20190617",
+            "resourceName": "AAA-3nvq67c",
+            "resourceType": "Microsoft.Web/serverfarms"
+          }
+        ],
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Web/sites/AAA-3nvq67c",
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "resourceName": "AAA-3nvq67c",
+        "resourceType": "Microsoft.Web/sites"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Insights/components/AAA-3nvq67c",
+            "resourceGroup": "azurechatbot-s010-20190617",
+            "resourceName": "AAA-3nvq67c",
+            "resourceType": "Microsoft.Insights/components"
+          }
+        ],
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.BotService/botServices/AAA-3nvq67c",
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "resourceName": "AAA-3nvq67c",
+        "resourceType": "Microsoft.BotService/botServices"
+      }
+    ],
+    "duration": "PT0S",
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputs": null,
+    "parameters": {
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "appInsightsName": {
+        "type": "String",
+        "value": "AAA-3nvq67c"
+      },
+      "appServicePlanName": {
+        "type": "String",
+        "value": "AAA-3nvq67c"
+      },
+      "appServicePlanSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard"
+        }
+      },
+      "botServiceName": {
+        "type": "String",
+        "value": "AAA-3nvq67c"
+      },
+      "botServiceSku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "botWebAppName": {
+        "type": "String",
+        "value": "AAA-3nvq67c"
+      },
+      "cosmosDbName": {
+        "type": "String",
+        "value": "AAA-3nvq67c"
+      },
+      "location": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "luisServiceLocation": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "luisServiceName": {
+        "type": "String",
+        "value": "AAA-luis-3nvq67c"
+      },
+      "luisServiceSku": {
+        "type": "String",
+        "value": "S0"
+      },
+      "microsoftAppId": {
+        "type": "String",
+        "value": "06eaa0f5-7b30-4aec-8611-b28d1f775f82"
+      },
+      "microsoftAppPassword": {
+        "type": "String",
+        "value": "kWA9dBd6DL0PaddWnJqBsqyF4gqK+GfpxeirZ10dN+8="
+      },
+      "name": {
+        "type": "String",
+        "value": "AAA"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "AAA-3nvq67c"
+      },
+      "suffix": {
+        "type": "String",
+        "value": "3nvq67c"
+      },
+      "useCosmosDb": {
+        "type": "Bool",
+        "value": true
+      },
+      "useStorage": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.DocumentDB",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "australiaeast"
+            ],
+            "properties": null,
+            "resourceType": "databaseAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Storage",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "australiaeast"
+            ],
+            "properties": null,
+            "resourceType": "storageAccounts"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Web",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "australiaeast"
+            ],
+            "properties": null,
+            "resourceType": "serverFarms"
+          },
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "australiaeast"
+            ],
+            "properties": null,
+            "resourceType": "sites"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "australiaeast"
+            ],
+            "properties": null,
+            "resourceType": "components"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.BotService",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "global"
+            ],
+            "properties": null,
+            "resourceType": "botServices"
+          }
+        ]
+      },
+      {
+        "id": null,
+        "namespace": "Microsoft.CognitiveServices",
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiVersions": null,
+            "locations": [
+              "australiaeast"
+            ],
+            "properties": null,
+            "resourceType": "accounts"
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "template": null,
+    "templateHash": "13346421562833385565",
+    "templateLink": null,
+    "timestamp": "2019-07-26T00:18:52.574342+00:00",
+    "validatedResources": [
+      {
+        "apiVersion": "2018-02-01",
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Resources/deployments/df123cff-9cd6-4290-a7a7-113afe2363f7",
+        "name": "df123cff-9cd6-4290-a7a7-113afe2363f7",
+        "properties": {
+          "mode": "Incremental",
+          "template": {
+            "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+            "contentVersion": "1.0.0.0",
+            "resources": []
+          }
+        },
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "type": "Microsoft.Resources/deployments"
+      },
+      {
+        "apiVersion": "2015-04-08",
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.DocumentDB/databaseAccounts/aaa-3nvq67c",
+        "kind": "GlobalDocumentDB",
+        "location": "australiaeast",
+        "name": "aaa-3nvq67c",
+        "properties": {
+          "databaseAccountOfferType": "Standard",
+          "locations": [
+            {
+              "failoverPriority": 0,
+              "locationName": "australiaeast"
+            }
+          ]
+        },
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "type": "Microsoft.DocumentDB/databaseAccounts"
+      },
+      {
+        "apiVersion": "2018-07-01",
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Storage/storageAccounts/aaa3nvq67c",
+        "kind": "StorageV2",
+        "location": "australiaeast",
+        "name": "aaa3nvq67c",
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "sku": {
+          "name": "Standard_LRS"
+        },
+        "type": "Microsoft.Storage/storageAccounts"
+      },
+      {
+        "apiVersion": "2018-02-01",
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Web/serverFarms/AAA-3nvq67c",
+        "location": "australiaeast",
+        "name": "AAA-3nvq67c",
+        "properties": {},
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "sku": {
+          "name": "S1",
+          "tier": "Standard"
+        },
+        "type": "Microsoft.Web/serverFarms"
+      },
+      {
+        "apiVersion": "2015-05-01",
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Insights/components/AAA-3nvq67c",
+        "kind": "web",
+        "location": "australiaeast",
+        "name": "AAA-3nvq67c",
+        "properties": {
+          "Application_Type": "web"
+        },
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "type": "Microsoft.Insights/components"
+      },
+      {
+        "apiVersion": "2018-02-01",
+        "dependsOn": [
+          "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Web/serverfarms/AAA-3nvq67c"
+        ],
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Web/sites/AAA-3nvq67c",
+        "location": "australiaeast",
+        "name": "AAA-3nvq67c",
+        "properties": {
+          "serverFarmId": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Web/serverfarms/AAA-3nvq67c",
+          "siteConfig": {
+            "appSettings": [
+              {
+                "name": "MicrosoftAppId",
+                "value": "06eaa0f5-7b30-4aec-8611-b28d1f775f82"
+              },
+              {
+                "name": "MicrosoftAppPassword",
+                "value": "kWA9dBd6DL0PaddWnJqBsqyF4gqK+GfpxeirZ10dN+8="
+              }
+            ],
+            "webSocketsEnabled": true
+          }
+        },
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "type": "Microsoft.Web/sites"
+      },
+      {
+        "apiVersion": "2018-07-12",
+        "dependsOn": [
+          "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.Insights/components/AAA-3nvq67c"
+        ],
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.BotService/botServices/AAA-3nvq67c",
+        "kind": "sdk",
+        "location": "global",
+        "name": "AAA-3nvq67c",
+        "properties": {
+          "developerAppInsightKey": "[reference(resourceId('Microsoft.Insights/components', parameters('appInsightsName'))).InstrumentationKey]",
+          "developerAppInsightsApplicationId": "[reference(resourceId('Microsoft.Insights/components', parameters('appInsightsName'))).ApplicationId]",
+          "displayName": "AAA-3nvq67c",
+          "endpoint": "https://aaa-3nvq67c.azurewebsites.net/api/messages",
+          "msaAppId": "06eaa0f5-7b30-4aec-8611-b28d1f775f82"
+        },
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "sku": {
+          "name": "S1"
+        },
+        "type": "Microsoft.BotService/botServices"
+      },
+      {
+        "apiVersion": "2017-04-18",
+        "id": "/subscriptions/e8e7a61c-4699-4da3-8ad0-b46c14565627/resourceGroups/azurechatbot-s010-20190617/providers/Microsoft.CognitiveServices/accounts/AAA-luis-3nvq67c",
+        "kind": "LUIS",
+        "location": "australiaeast",
+        "name": "AAA-luis-3nvq67c",
+        "resourceGroup": "azurechatbot-s010-20190617",
+        "sku": {
+          "name": "S0"
+        },
+        "type": "Microsoft.CognitiveServices/accounts"
+      }
+    ]
+  },
+  "resourceGroup": "azurechatbot-s010-20190617"
+}
+{
+  "applicationInsights": {
+    "type": "Object",
+    "value": {
+      "InstrumentationKey": "2194c15a-1d8b-42b7-a502-a36590208ab5"
+    }
+  },
+  "blobStorage": {
+    "type": "Object",
+    "value": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=aaa3nvq67c;AccountKey=QioV9R4MxZyaMS4D8kWf5vGml3kbyXNt/W/DFUAaqw3894F6qgHktiifSl1dxhMy6sGTwSuKb15kHUcovx+USw==;EndpointSuffix=core.windows.net",
+      "container": "transcripts"
+    }
+  },
+  "botWebAppName": {
+    "type": "String",
+    "value": "AAA-3nvq67c"
+  },
+  "cosmosDb": {
+    "type": "Object",
+    "value": {
+      "authKey": "7uTouL4ZIzm89BlJYqIFCQlV4lUNuPdgO2usDOfVxcTpzGZu6KJiuolZnRyJB2LGSuQzggGhRt3LoOLLoBQ1Pw==",
+      "collectionId": "botstate-collection",
+      "cosmosDBEndpoint": "https://aaa-3nvq67c.documents.azure.com:443/",
+      "databaseId": "botstate-db"
+    }
+  },
+  "luis": {
+    "type": "Object",
+    "value": {
+      "accountName": "AAA-luis-3nvq67c",
+      "key": "22980a40688e4f1e80dd4962b68e47a6",
+      "region": "australiaeast"
+    }
+  }
+}

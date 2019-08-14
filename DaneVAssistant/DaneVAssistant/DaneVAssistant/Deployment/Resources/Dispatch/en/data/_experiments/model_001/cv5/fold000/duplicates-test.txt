@@ -1,0 +1,2 @@
+Utterance	Intents
+read it	emailSkill, l_general

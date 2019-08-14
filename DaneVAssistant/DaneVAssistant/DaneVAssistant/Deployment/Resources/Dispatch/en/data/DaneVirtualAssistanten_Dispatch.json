@@ -1,0 +1,133 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "Dispatch",
+  "name": "DaneVirtualAssistanten_Dispatch",
+  "desc": "Dispatch model for DaneVirtualAssistanten_Dispatch",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "l_general"
+    },
+    {
+      "name": "q_chitchat"
+    },
+    {
+      "name": "q_faq"
+    },
+    {
+      "name": "emailSkill"
+    }
+  ],
+  "entities": [
+    {
+      "name": "DirectionalReference",
+      "roles": []
+    },
+    {
+      "name": "OrderReference",
+      "roles": []
+    },
+    {
+      "name": "SenderName",
+      "roles": []
+    },
+    {
+      "name": "Category",
+      "roles": []
+    },
+    {
+      "name": "ContactName",
+      "roles": []
+    },
+    {
+      "name": "Message",
+      "roles": []
+    },
+    {
+      "name": "EmailSubject",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "^(yes|sure)[[,]i want (that|the ({DirectionalReference}|{ordinal}) ({number}|one))]",
+      "intent": "l_general"
+    },
+    {
+      "pattern": "^cancel [sending] [(my|the)] (email|mail) to {ContactName}",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "show [(my|the)] [(unread|important|{Category})] (email|mail|emails)^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^(delete|remove) [the] [{OrderReference}] (email|emails|mails) [from {SenderName}]",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^read [(me|out)] [the] (email|emails) from {SenderName} [(about|on) {EmailSubject}]^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^read [me] [the] (email|mail|emails) (on|about|titled) {EmailSubject}",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^read [me] [the] (email|mail|emails) (on|about|titled) {EmailSubject} [sent] from {SenderName}^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^read [me] the (email|mail) (titled|about|on) [the] {EmailSubject}^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^reply [back] with [the] (title|subject) {EmailSubject}",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^reply [back] [the] message [that] {Message}^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^(tell|find|show) [me] [(an|the)] email (with the title|with title|titled) {EmailSubject}",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^(show|search|find) [me] [(an|the)] [{Category}] email[s] (on|about|titled) {EmailSubject} [sent] [(by|from) {SenderName}]^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^(write|send|start) [(a|an|the)] [new] email to {ContactName}^",
+      "intent": "emailSkill"
+    },
+    {
+      "pattern": "^(write|send|start) [(a|an|the)] [new] email to {ContactName} (about|on|with) [the subject] [that] {EmailSubject}^",
+      "intent": "emailSkill"
+    }
+  ],
+  "utterances": [],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    }
+  ]
+}

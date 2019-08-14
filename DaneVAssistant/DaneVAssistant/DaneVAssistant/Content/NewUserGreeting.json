@@ -1,0 +1,64 @@
+﻿{
+  "type": "AdaptiveCard",
+  "id": "NewUserGreeting",
+  "backgroundImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAACeCAYAAACvg+F+AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAxOTowMzoxMyAxOTo0Mjo0OBCBEeIAAAG8SURBVHhe7dJBDQAgEMCwA/+egQcmlrSfGdg6z0DE/oUEw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phCZm52U4FOCAVGHQAAAAASUVORK5CYII=",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "url": "",
+          "size": "Stretch"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "None",
+      "backgroundImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAIAAACAiijJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAqSURBVDhPY1RgL2SgDDBBaQrAqBEIMGoEAowagQCjRiDAqBEIQLERDAwAIisAxhgAwtEAAAAASUVORK5CYII=",
+      "items": [
+        {
+          "type": "TextBlock",
+          "id": "title",
+          "spacing": "Medium",
+          "size": "Large",
+          "weight": "Bolder",
+          "color": "Light",
+          "text": "Hi, I'm **DaneBot**",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "id": "body",
+          "size": "Medium",
+          "color": "Light",
+          "text": "Your friendly chat bot.",
+          "wrap": true
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Get Started",
+      "data": {
+        "action": "getStarted"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Send an Email",
+      "data": "Send an Email"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Create a Request",
+      "url": ""
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "speak": "Hi, I'm **DaneBot**. Now that I'm up and running, try asking me anything."
+}

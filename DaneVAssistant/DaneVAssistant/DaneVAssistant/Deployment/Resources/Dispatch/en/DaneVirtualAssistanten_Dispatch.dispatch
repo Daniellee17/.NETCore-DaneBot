@@ -1,0 +1,56 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_general",
+      "appId": "90d6380e-5145-4a14-96f7-89e889719e0d",
+      "authoringKey": "cffde7a42bba4235bb98a5bb497a57c6",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "DaneVirtualAssistanten_general",
+      "id": "1"
+    },
+    {
+      "intentName": "q_chitchat",
+      "kbId": "4f9c7f9d-637b-4898-afe2-7fed705b534d",
+      "subscriptionKey": "2916d504646a44a5b8a62b320f40d172",
+      "type": "qna",
+      "name": "chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_faq",
+      "kbId": "26a70baf-46d4-405f-95be-4aa106cdce63",
+      "subscriptionKey": "2916d504646a44a5b8a62b320f40d172",
+      "type": "qna",
+      "name": "faq",
+      "id": "3"
+    },
+    {
+      "intentName": "emailSkill",
+      "path": "C:\\Users\\hnxc\\Desktop\\git3\\DaneEmailSkill\\emailskill\\emailskill\\Deployment\\Resources\\LU\\en\\Email.luis",
+      "type": "file",
+      "name": "emailSkill",
+      "id": "4"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "appId": "a3fa5a85-607f-4a5b-80bd-b0b34aee6fa9",
+  "authoringKey": "cffde7a42bba4235bb98a5bb497a57c6",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "DaneVirtualAssistanten_Dispatch"
+}

@@ -1,0 +1,29 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en": {
+      "languageModels": [
+        {
+          "version": "0.1",
+          "name": "AAAen_Email",
+          "authoringRegion": "westus",
+          "region": "australiaeast",
+          "id": "Email",
+          "authoringkey": "cffde7a42bba4235bb98a5bb497a57c6",
+          "appid": "00b11f18-a9f7-44af-a3e0-7dd7f69cef22",
+          "subscriptionkey": "22980a40688e4f1e80dd4962b68e47a6"
+        },
+        {
+          "version": "0.1",
+          "name": "AAAen_General",
+          "authoringRegion": "westus",
+          "region": "australiaeast",
+          "id": "General",
+          "authoringkey": "cffde7a42bba4235bb98a5bb497a57c6",
+          "appid": "b5b92998-de24-4e1f-87b8-57fd0d76631b",
+          "subscriptionkey": "22980a40688e4f1e80dd4962b68e47a6"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,367 @@
+Label	Weight	Text
+emailSkill	1	the last email
+emailSkill	1	read out xu's email about apple's news
+emailSkill	1	could you read out the email on how to use the new tool
+emailSkill	1	cancel the message
+emailSkill	1	put the email to trash bin
+emailSkill	1	search emails contains coupons
+emailSkill	1	i want you to cancel the email
+emailSkill	1	send an urgent email from my work email to jack
+emailSkill	1	send an email today
+emailSkill	1	i need to send an email about the words to a song
+emailSkill	1	forward to deborah with a message saying that i don't want that
+emailSkill	1	send an email to harry potter
+emailSkill	1	add flag to the email john just sent to me
+emailSkill	1	just do it
+emailSkill	1	reply
+emailSkill	1	read the latest email i sent
+emailSkill	1	don't email
+emailSkill	1	send an email to partone@gmail.com
+emailSkill	1	reply by saying i love you
+emailSkill	1	read todays mail
+emailSkill	1	find emails with resume
+emailSkill	1	i am not done yet. i need to add some more details
+emailSkill	1	read my new emails
+emailSkill	1	flag this email as important for me
+emailSkill	1	never mind cancel the message
+emailSkill	1	wait, i need to write more
+emailSkill	1	read me my latest emails
+emailSkill	1	looking for an email with hello
+emailSkill	1	did i get any email from tom
+emailSkill	1	what did mom just say
+emailSkill	1	what is the last email i received today
+emailSkill	1	add: call me tonight after work
+emailSkill	1	show previous in red category
+emailSkill	1	"okay, send it"
+emailSkill	1	search emails from mike
+emailSkill	1	i wish to add more to the message
+emailSkill	1	what is the previous email
+emailSkill	1	send the email now
+emailSkill	1	reply that i am busy
+emailSkill	1	find email titled new design
+emailSkill	1	please add, please let me know what i can bring. i'd be happy to make a side dish or dessert
+emailSkill	1	send an urgent email from my work account to christian
+emailSkill	1	show me the next
+emailSkill	1	check my emails
+emailSkill	1	add flag to this message
+emailSkill	1	perfect thank you
+emailSkill	1	can you read my emails
+emailSkill	1	send an email with read receipt to peter
+emailSkill	1	forward the email to dad
+emailSkill	1	send an email about swim team practice
+emailSkill	1	delete this message permanently
+emailSkill	1	send new email to christian and mark it high importance
+emailSkill	1	read email from kat
+emailSkill	1	move back to last mails
+emailSkill	1	show me the last three mails
+emailSkill	1	show me the email from tom and filtering with word lunch
+emailSkill	1	cancel searching the messages
+emailSkill	1	add photo
+emailSkill	1	find an email from jay that contains halloween
+emailSkill	1	show my emails
+emailSkill	1	read first email in the linked inbox
+emailSkill	1	add more to the last email
+emailSkill	1	send a new high importance email to jordan
+emailSkill	1	read recent email
+emailSkill	1	send an important email to olivia
+emailSkill	1	^(show|give|tell) [me] [the] previous (email|message|mail)^
+emailSkill	1	send an email to my brother
+emailSkill	1	any new email now
+emailSkill	1	forward to dorothy by typing i agree with it
+emailSkill	1	reply to susan
+emailSkill	1	please check my outlook
+emailSkill	1	check outlook please
+emailSkill	1	read the first email
+emailSkill	1	forward to wife by saying i love you
+emailSkill	1	search bla bla in my emails
+emailSkill	1	can you read my last email
+emailSkill	1	i'd like to add a bit more to the email.
+emailSkill	1	search the email with keywords hello
+emailSkill	1	read my email from hubby
+emailSkill	1	check my inbox
+emailSkill	1	add a file to the email
+emailSkill	1	delete all emails received tonight
+emailSkill	1	send an email to lily roth and abc123@microsoft.com
+emailSkill	1	read me the email titled happy new year
+emailSkill	1	query emails with bill
+emailSkill	1	reply to the first one
+emailSkill	1	this email need to be flagged
+emailSkill	1	i need to add additional lines
+emailSkill	1	don't send this email
+emailSkill	1	create new mail titled urgent meeting information to jonathan
+emailSkill	1	email to cynthia and mike, that dinner last week was splendid.
+emailSkill	1	delete what i just wrote
+emailSkill	1	send an email marked follow up to jerry
+emailSkill	1	who texted me just now
+emailSkill	1	put the emails from this file folder to trash bin
+emailSkill	1	no cancel it, i don't want to send the mail
+emailSkill	1	okay send it
+emailSkill	1	i forgot to add an important part to that email to james . please set it up to edit
+emailSkill	1	whose email now
+emailSkill	1	send the email
+emailSkill	1	i need to add more to the email message i am sending to vincent
+emailSkill	1	write email to mom subject is babysit
+emailSkill	1	previous email
+emailSkill	1	reply to the email
+emailSkill	1	search an email with subject background screening
+emailSkill	1	read email from mum
+emailSkill	1	read the last email
+emailSkill	1	go to the next page
+emailSkill	1	show the last email
+emailSkill	1	add more to email body
+emailSkill	1	any new email available
+emailSkill	1	add more to the email
+emailSkill	1	do i receive new mail in outlook
+emailSkill	1	email to harry potter and hermione granger
+emailSkill	1	empty the email inbox
+emailSkill	1	show me the previous email
+emailSkill	1	add more and change the message
+emailSkill	1	add to body of email
+emailSkill	1	send an email to sean about weekend plans
+l_general	1	choose last one
+l_general	1	opt for the lower choice
+l_general	1	i am done
+l_general	1	right yes
+l_general	1	none of those
+l_general	1	choose the fourth one
+l_general	1	sounds good to me
+l_general	1	what's after that
+l_general	1	read the page
+l_general	1	stop talking
+l_general	1	opt for a random one
+l_general	1	logout
+l_general	1	read the page out loud
+l_general	1	sounds good
+l_general	1	read text aloud
+l_general	1	i want to choose bottom one
+l_general	1	canceled
+l_general	1	no no cancel
+l_general	1	display previously
+l_general	1	three
+l_general	1	no. 2
+l_general	1	the last five
+l_general	1	go forward
+l_general	1	i want to talk to a real human
+l_general	1	i want third one
+l_general	1	log out
+l_general	1	okay
+l_general	1	cancel that one
+l_general	1	show the previous one
+l_general	1	good bye
+l_general	1	no no no no stop talking
+l_general	1	all set
+l_general	1	no go back to
+l_general	1	that's all
+l_general	1	the last two
+l_general	1	is there any help
+l_general	1	please read this
+l_general	1	speak of what is on this page
+l_general	1	state it
+l_general	1	turn over a new leaf
+l_general	1	i like the upper right
+l_general	1	select the lower one
+l_general	1	sure thing
+l_general	1	say again please
+l_general	1	do nothing
+l_general	1	any one is ok
+l_general	1	select the last choice
+l_general	1	start it over
+l_general	1	repeat
+l_general	1	nothing never mind
+l_general	1	neither thank you
+l_general	1	read text
+l_general	1	i want right one
+l_general	1	none none
+l_general	1	3
+l_general	1	sounds good thank you
+l_general	1	can you you read page aloud
+l_general	1	no later
+l_general	1	read it please
+l_general	1	ok for now
+l_general	1	i need some help
+l_general	1	show the next 4 items
+l_general	1	i need real human help
+l_general	1	neither one of them
+l_general	1	opt for the second
+l_general	1	turn off
+l_general	1	is there any real human
+l_general	1	no no cancel it
+l_general	1	not even close
+l_general	1	it's done
+l_general	1	number two
+l_general	1	what about the third one
+l_general	1	i like second one
+l_general	1	be quiet now
+l_general	1	i want none of them
+l_general	1	anyone is fine
+l_general	1	can you read that for me
+l_general	1	i want the fourth choice
+l_general	1	read all on the screen to me
+l_general	1	get back to the last one
+l_general	1	sounds perfect
+l_general	1	open help
+l_general	1	sounds great
+l_general	1	read that out loud
+l_general	1	reject it
+l_general	1	select the upper right
+l_general	1	last step
+l_general	1	i don't like it
+l_general	1	read sentence out loud
+l_general	1	thank you very much
+l_general	1	back to last
+l_general	1	any help
+l_general	1	oh no
+l_general	1	what does the page say
+l_general	1	i don't understand
+l_general	1	yeah buddy
+l_general	1	submit it
+l_general	1	nothing please
+None	1	the third one
+None	1	the first one
+q_chitchat	1	You're a butterface.
+q_chitchat	1	I'm pissed
+q_chitchat	1	Who's your dad
+q_chitchat	1	Will you marry me
+q_chitchat	1	I'm so sleepy
+q_chitchat	1	Thnx
+q_chitchat	1	Do you like Cortana
+q_chitchat	1	I'm a fan.
+q_chitchat	1	Good evening
+q_chitchat	1	I'm tired
+q_chitchat	1	Where did you come from
+q_chitchat	1	I think you're swell
+q_chitchat	1	How intelligent are you
+q_chitchat	1	Do you not like me
+q_chitchat	1	I want to eat something
+q_chitchat	1	Are you young
+q_chitchat	1	What kinds of things can you do
+q_chitchat	1	What's my name
+q_chitchat	1	How much more awesome can you get
+q_chitchat	1	You don't know anything.
+q_chitchat	1	You're welcome
+q_chitchat	1	High five!
+q_chitchat	1	Are you available
+q_chitchat	1	Thanks
+q_chitchat	1	Your face is ugly.
+q_chitchat	1	You're dumb
+q_chitchat	1	Do you smell
+q_chitchat	1	Which one of us is smarter
+q_chitchat	1	You're such a smarty-pants
+q_chitchat	1	Can I have a hug
+q_chitchat	1	Look at how smart you are
+q_chitchat	1	Great, thanks
+q_chitchat	1	Shut up
+q_chitchat	1	So sorry
+q_chitchat	1	No, that's not true
+q_chitchat	1	Hi there!
+q_chitchat	1	What color do you like
+q_chitchat	1	That's right
+q_chitchat	1	Are you the singularity
+q_chitchat	1	Are you a guy
+q_chitchat	1	Sry
+q_chitchat	1	I am hungry
+q_chitchat	1	Pardon
+q_chitchat	1	Who's your daddy
+q_chitchat	1	Do you spend time in your garden
+q_chitchat	1	I'm in such a good mood
+q_chitchat	1	What's your boss' name
+q_chitchat	1	Who created you
+q_chitchat	1	Say something ridiculous
+q_chitchat	1	Ask me anything.
+q_chitchat	1	You honestly could not be more uninteresting
+q_chitchat	1	Can you say anything else
+q_chitchat	1	I like you
+q_chitchat	1	I'm in love with you.
+q_chitchat	1	Are you busy
+q_chitchat	1	What were you doing yesterday
+q_chitchat	1	I'm not following
+q_chitchat	1	Do you like apples
+q_chitchat	1	Are you with the NSA
+q_chitchat	1	Why do you think that
+q_chitchat	1	Be more fun
+q_chitchat	1	Are you asexual
+q_chitchat	1	What's the meaning of life
+q_chitchat	1	You're such an asshole
+q_chitchat	1	I love you
+q_chitchat	1	Who made you
+q_chitchat	1	That's not accurate
+q_chitchat	1	What's up
+q_chitchat	1	Thank you
+q_chitchat	1	Can you sneeze
+q_chitchat	1	Aren't you cheerful
+q_chitchat	1	Can you ask me a question
+q_chitchat	1	Great!
+q_chitchat	1	Do you want to rule the world
+q_chitchat	1	I think you're dreamy
+q_chitchat	1	Give me a joke
+q_chitchat	1	Are you HAL
+q_chitchat	1	I'm so sorry
+q_chitchat	1	I'm so sad
+q_chitchat	1	You're useless
+q_chitchat	1	Happy Hannukah
+q_chitchat	1	You bore me
+q_chitchat	1	I'm a lesbian
+q_chitchat	1	Till we meet again
+q_chitchat	1	Do you like Alexa
+q_chitchat	1	You're right.
+q_chitchat	1	What should I call you
+q_chitchat	1	You're so basic
+q_chitchat	1	Are you human
+q_chitchat	1	Nope, false
+q_chitchat	1	You're gonna be unemployed soon
+q_chitchat	1	You're so funny.
+q_chitchat	1	You keep saying the same thing all the time
+q_chitchat	1	Hi Cortana
+q_chitchat	1	What do you think about me
+q_chitchat	1	You seem really happy
+q_chitchat	1	What is up
+q_chitchat	1	Can you make me a sandwich
+q_chitchat	1	Say something dumb
+q_chitchat	1	Hello Alexa
+q_chitchat	1	I hate everything about you
+q_chitchat	1	I love you.
+q_chitchat	1	You're so stupid
+q_chitchat	1	Are you a fan of country music
+q_chitchat	1	Are you a fan of tech
+q_chitchat	1	Do you dream
+q_chitchat	1	Human or robot
+q_chitchat	1	I thank you
+q_chitchat	1	What's your job
+q_chitchat	1	Who am I
+q_chitchat	1	Back in a minute
+q_chitchat	1	What can you do
+q_chitchat	1	Do you love me
+q_chitchat	1	Do you have boogers
+q_chitchat	1	Do you and Cortana hang out
+q_chitchat	1	Hug me
+q_chitchat	1	Do you get tired
+q_chitchat	1	Pardon me
+q_chitchat	1	You fucked up
+q_chitchat	1	Omg sorry
+q_chitchat	1	I feel so great
+q_chitchat	1	Do you believe in love
+q_chitchat	1	Which one of us is more beautiful
+q_chitchat	1	Are you selling my secrets
+q_chitchat	1	You're fired!
+q_chitchat	1	Hum a tune
+q_chitchat	1	Be silly
+q_chitchat	1	Zip it!
+q_faq	1	What can the Calendar Skill do
+q_faq	1	How do I pair my Bluetooth phone
+q_faq	1	How do I turn on Cruise Control
+q_faq	1	What can the Point of Interest Skill do
+q_faq	1	what is sql
+q_faq	1	website
+q_faq	1	self service
+q_faq	1	powerbi
+q_faq	1	dmss
+q_faq	1	Where is the emergency release for the fuel tank
+q_faq	1	Should I use premium gas
+q_faq	1	what is powerbi
+q_faq	1	Where is the gas cap
+q_faq	1	Leadership Team Leads
+q_faq	1	How do I find the spare tire
+q_faq	1	Website
+q_faq	1	What is that red tire light on my dash
+q_faq	1	In car productivity
+q_faq	1	Max defrost

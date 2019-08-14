@@ -1,0 +1,13 @@
+Utterance	Intents
+read it	emailSkill, l_general
+1	l_general, None
+2	l_general, None
+go away	l_general, q_chitchat
+exit	emailSkill, l_general
+goodbye	l_general, q_chitchat
+yes	l_general, q_chitchat
+be quiet	l_general, q_chitchat
+previous one please	emailSkill, l_general
+what should i do	l_general, q_chitchat
+bye	l_general, q_chitchat
+what's new	q_chitchat, q_faq

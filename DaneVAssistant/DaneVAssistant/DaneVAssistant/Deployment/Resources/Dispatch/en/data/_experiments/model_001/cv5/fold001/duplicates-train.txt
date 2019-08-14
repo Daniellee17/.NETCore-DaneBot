@@ -1,0 +1,16 @@
+Utterance	Intents
+perfect thank you	emailSkill, l_general
+read it	emailSkill, l_general
+3	l_general, None
+i don't understand	l_general, q_chitchat
+exit	emailSkill, l_general
+show me the next	emailSkill, l_general
+what's up	q_chitchat, q_faq
+goodbye	l_general, q_chitchat
+stop talking	l_general, q_chitchat
+yes	l_general, q_chitchat
+be quiet	l_general, q_chitchat
+previous one please	emailSkill, l_general
+show the previous one	emailSkill, l_general
+shut up	l_general, q_chitchat
+what should i do	l_general, q_chitchat

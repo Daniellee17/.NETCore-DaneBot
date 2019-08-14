@@ -1,0 +1,7 @@
+No	Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
+0	emailSkill	597	28.61307	92	4	13.73085
+1	l_general	483	14.73499	44	1	7.41929
+2	q_chitchat	629	17.35294	44	2	7.03536
+3	q_faq	90	23.7	58	2	11.14808
+4	None	6	14.5	21	11	3.44964
+ 	__ALL__	1805	20.68366	92	1	11.62416
