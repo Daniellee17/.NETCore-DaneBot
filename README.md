@@ -1,7 +1,7 @@
 # DaneBot
 <h3>Created by: Danielle Espiritu</h3>
 
-A chat bot created using Microsoft's bot framework SDK V4 using the virtual assistant template.
+A chat bot created using Microsoft's bot framework SDK V4 and the virtual assistant template.
 
 Skills:
 Email Skill
